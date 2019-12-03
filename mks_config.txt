@@ -24,8 +24,8 @@
 >cfg_custom_bed_flag:1
 
 #the max target temp of extruder and heated bed
->cfg_max_sprayer_temperature:280
->cfg_max_hotbed_temperature:130
+>cfg_max_sprayer_temperature:300
+>cfg_max_hotbed_temperature:150
 
 #pause position (-1 is invalid; Z-axis is relative position)
 >cfg_XPOS:-1
@@ -69,7 +69,7 @@
 
 #It is the minimum temperature for filament change.
 It will auto heat up if the current temp doesn't reach the target.
->cfg_filament_load_limit_temperature:200
+>cfg_filament_load_limit_temperature:220
 
 #The length of Load filament before unloader filament. 
 >cfg_unload_retract_length:15
